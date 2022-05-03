@@ -5,6 +5,7 @@ import com.todoapp.backend.entity.Note;
 import java.util.List;
 
 public interface NoteService {
+
     List<Note> getNotes();
 
     Note saveNote(Note note);
